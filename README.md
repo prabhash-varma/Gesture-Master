@@ -37,7 +37,7 @@ git clone https://github.com/prabhash-varma/Gesture-Master.git
 
 Change into the project directory::
 ```bash
-cd GestureMaster
+cd Gesture-Master
 ```
 
 Run the application using Python:
