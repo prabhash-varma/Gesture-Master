@@ -168,7 +168,7 @@ class Worker(QThread):
                 continue
 
             self.frame_update.emit(frame)
-            self.msleep(30)  # Update frame every 30 ms
+            self.msleep(1000)  # Update frame every 30 ms
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
